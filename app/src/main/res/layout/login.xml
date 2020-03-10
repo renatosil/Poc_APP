@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FUNDO"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/Autismo">
+
+    <Button
+        android:id="@+id/ENTER"
+        android:layout_width="112dp"
+        android:layout_height="52dp"
+        android:shadowColor="#FFFFFF"
+        android:text="ENTER"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/background_dark"
+        android:textColorHighlight="@android:color/background_dark"
+        android:textColorHint="@android:color/background_dark"
+        android:textColorLink="@android:color/background_dark"
+        android:textIsSelectable="true"
+        tools:layout_editor_absoluteX="283dp"
+        tools:layout_editor_absoluteY="16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    tools:context="MainActivity"
+    android:backgroud="@drawble/Autismo-futa3"

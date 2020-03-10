@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nuvem">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/nuvem"
+        tools:layout_editor_absoluteX="-134dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <EditText
+            android:id="@+id/editText8"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="282dp"
+            android:layout_height="30dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="66dp"
+            tools:layout_editor_absoluteY="67dp" />
+
+        <EditText
+            android:id="@+id/editText6"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="282dp"
+            android:layout_height="30dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="384dp" />
+
+        <EditText
+            android:id="@+id/editText12"
+            android:layout_width="282dp"
+            android:layout_height="30dp"
+            android:ems="10"
+            android:inputType="phone"
+            tools:layout_editor_absoluteX="66dp"
+            tools:layout_editor_absoluteY="309dp" />
+
+        <TextView
+            android:id="@+id/NOME"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="66dp"
+            tools:layout_editor_absoluteY="37dp" />
+
+        <TextView
+            android:id="@+id/DATAN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data de nascimento:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            tools:layout_editor_absoluteX="66dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <TextView
+            android:id="@+id/NOMERES"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome do responsável:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            tools:layout_editor_absoluteX="66dp"
+            tools:layout_editor_absoluteY="203dp" />
+
+        <EditText
+            android:id="@+id/editText11"
+            android:layout_width="282dp"
+            android:layout_height="30dp"
+            android:ems="10"
+            android:inputType="date"
+            tools:layout_editor_absoluteX="66dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <TextView
+            android:id="@+id/CONTATORES"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contato do responsável:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            tools:layout_editor_absoluteX="66dp"
+            tools:layout_editor_absoluteY="279dp" />
+
+        <EditText
+            android:id="@+id/editText4"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="282dp"
+            android:layout_height="30dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="66dp"
+            tools:layout_editor_absoluteY="236dp" />
+
+        <TextView
+            android:id="@+id/NOMEMED"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome do médico (a):"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="354dp" />
+
+        <TextView
+            android:id="@+id/CONTATOMED"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contato do médico (a):"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            tools:layout_editor_absoluteX="66dp"
+            tools:layout_editor_absoluteY="426dp" />
+
+        <EditText
+            android:id="@+id/editText12"
+            android:layout_width="282dp"
+            android:layout_height="30dp"
+            android:ems="10"
+            android:inputType="phone"
+            tools:layout_editor_absoluteX="66dp"
+            tools:layout_editor_absoluteY="461dp" />
+
+        <TextView
+            android:id="@+id/NOMEEDUC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome educador (a):"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="508dp" />
+
+        <EditText
+            android:id="@+id/editText3"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="282dp"
+            android:layout_height="30dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="538dp" />
+
+        <TextView
+            android:id="@+id/CONTATOEDUC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contado educador (a):"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            tools:layout_editor_absoluteX="65dp"
+            tools:layout_editor_absoluteY="580dp" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="282dp"
+            android:layout_height="30dp"
+            android:ems="10"
+            android:inputType="phone"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="610dp" />
+
+        <Button
+            android:id="@+id/SALVACADASTRO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAVLAR"
+            tools:layout_editor_absoluteX="163dp"
+            tools:layout_editor_absoluteY="653dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <EditText
+        android:id="@+id/editText8"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="282dp"
+        android:layout_height="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="67dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
