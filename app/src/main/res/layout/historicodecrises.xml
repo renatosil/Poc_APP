@@ -6,7 +6,7 @@
     android:background="@drawable/nuvem">
 
     <Button
-        android:id="@+id/angry_btn18"
+        android:id="@+id/angry_btn13"
 
         android:layout_width="143dp"
         android:layout_height="36dp"
@@ -22,39 +22,21 @@
         tools:layout_editor_absoluteX="134dp"
         tools:layout_editor_absoluteY="647dp" />
 
-    <Button
-        android:id="@+id/angry_btn16"
-
-        android:layout_width="143dp"
-        android:layout_height="36dp"
-        android:background="@drawable/buttonshape"
-
-        android:shadowColor="#A8A8A8"
-        android:shadowDx="0"
-        android:shadowDy="0"
-        android:shadowRadius="5"
-        android:text="Salvar"
-        android:textColor="#140B8C"
-        android:textSize="13sp"
-        tools:layout_editor_absoluteX="134dp"
-        tools:layout_editor_absoluteY="591dp" />
-
     <TextView
-        android:id="@+id/IDMEDICO"
+        android:id="@+id/IDMEDICO6"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="-2dp"
         android:layout_width="413dp"
         android:layout_height="49dp"
         android:background="@android:color/background_light"
-        android:text="      LISTA DE PACIENTE"
+        android:text="      HISTÓRICO DE CRISE"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:textColor="#000000"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="-2dp" />
+        android:textColor="#000000" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="409dp"
-        android:layout_height="541dp"
+        android:layout_height="597dp"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="49dp" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

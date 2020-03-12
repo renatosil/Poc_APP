@@ -8,35 +8,71 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/RESPONSAVEL"
+        android:id="@+id/angry_btn5"
+
         android:layout_width="197dp"
-        android:layout_height="58dp"
-        android:text="SOU RESPONSÁVEL"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape"
+
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Sou Professor(a)"
+        android:textColor="#140B8C"
+        android:textSize="13sp"
         tools:layout_editor_absoluteX="107dp"
-        tools:layout_editor_absoluteY="174dp" />
+        tools:layout_editor_absoluteY="320dp" />
 
     <Button
-        android:id="@+id/MEDICO"
+        android:id="@+id/angry_btn4"
+
         android:layout_width="197dp"
-        android:layout_height="58dp"
-        android:text="SOU MÉDICO (A)"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape"
+
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Novo Cadastro"
+        android:textColor="#140B8C"
+        android:textSize="13sp"
         tools:layout_editor_absoluteX="107dp"
-        tools:layout_editor_absoluteY="241dp" />
+        tools:layout_editor_absoluteY="395dp" />
 
     <Button
-        android:id="@+id/PROFESSOR"
+        android:id="@+id/angry_btn3"
+
         android:layout_width="197dp"
-        android:layout_height="58dp"
-        android:text="SOU PREOFESSOR (A)"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape"
+
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Sou Responsável"
+        android:textColor="#140B8C"
+        android:textSize="13sp"
         tools:layout_editor_absoluteX="107dp"
-        tools:layout_editor_absoluteY="308dp" />
+        tools:layout_editor_absoluteY="242dp" />
 
     <Button
-        android:id="@+id/CADASTRO"
+        android:id="@+id/angry_btn"
+
         android:layout_width="197dp"
-        android:layout_height="58dp"
-        android:text="NOVE CADASTRO"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape"
+
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Sou Médico(a)"
+        android:textColor="#140B8C"
+        android:textSize="13sp"
         tools:layout_editor_absoluteX="107dp"
-        tools:layout_editor_absoluteY="374dp" />
+        tools:layout_editor_absoluteY="167dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
