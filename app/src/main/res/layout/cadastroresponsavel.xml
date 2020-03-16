@@ -5,6 +5,33 @@
     android:layout_height="match_parent"
     android:background="@drawable/nuvem">
 
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <EditText
+        android:id="@+id/editText20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="330dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="300dp" />
+
     <Button
         android:id="@+id/angry_btn22"
 
@@ -20,43 +47,16 @@
         android:textColor="#140B8C"
         android:textSize="13sp"
         tools:layout_editor_absoluteX="208dp"
-        tools:layout_editor_absoluteY="590dp" />
-
-    <EditText
-        android:id="@+id/editText20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="91dp"
-        tools:layout_editor_absoluteY="123dp" />
+        tools:layout_editor_absoluteY="655dp" />
 
     <TextView
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nome:"
+        android:text="Nº de Dependentes "
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="187dp" />
-
-    <EditText
-        android:id="@+id/editText18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="91dp"
-        tools:layout_editor_absoluteY="416dp" />
-
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Endereço:"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="386dp" />
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="503dp" />
 
     <EditText
         android:id="@+id/editText16"
@@ -65,7 +65,7 @@
         android:ems="10"
         android:inputType="textPassword"
         tools:layout_editor_absoluteX="91dp"
-        tools:layout_editor_absoluteY="316dp" />
+        tools:layout_editor_absoluteY="432dp" />
 
     <Button
         android:id="@+id/angry_btn11"
@@ -82,7 +82,7 @@
         android:textColor="#140B8C"
         android:textSize="13sp"
         tools:layout_editor_absoluteX="91dp"
-        tools:layout_editor_absoluteY="590dp" />
+        tools:layout_editor_absoluteY="655dp" />
 
     <TextView
         android:id="@+id/textView12"
@@ -90,8 +90,8 @@
         android:layout_height="wrap_content"
         android:text="Contato:"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="481dp" />
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="195dp" />
 
     <TextView
         android:id="@+id/textView11"
@@ -100,7 +100,7 @@
         android:text="Senha:"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="286dp" />
+        tools:layout_editor_absoluteY="402dp" />
 
     <EditText
         android:id="@+id/editText"
@@ -109,16 +109,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="91dp"
-        tools:layout_editor_absoluteY="217dp" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Dependente:"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="93dp" />
+        tools:layout_editor_absoluteY="123dp" />
 
     <TextView
         android:id="@+id/IDMEDICO8"
@@ -138,5 +129,6 @@
         android:ems="10"
         android:inputType="phone"
         tools:layout_editor_absoluteX="91dp"
-        tools:layout_editor_absoluteY="511dp" />
+        tools:layout_editor_absoluteY="225dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
